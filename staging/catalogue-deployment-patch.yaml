@@ -10,5 +10,5 @@ spec:
       containers:
       - name: catalogue
         env:
-          name: env
+        - name: env
           value: staging
