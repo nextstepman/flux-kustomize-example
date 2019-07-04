@@ -1,0 +1,1 @@
+{"jobID":"a7dae3cf-b953-e912-c9f5-18e86c95fe06","spec":{"type":"policy","cause":{"Message":"","User":"Richard Scholz \u003crichard.scholz@senacor.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"locked":"true","locked_msg":"","locked_user":"Richard Scholz \u003crichard.scholz@senacor.com\u003e"},"remove":{}}}},"result":null}
