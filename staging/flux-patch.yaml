@@ -23,3 +23,12 @@ spec:
       initContainers:
       - image: alpine:3.10
         name: init
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    flux.weave.works/locked: "true"
+    flux.weave.works/locked_user: Richard Scholz <richard.scholz@senacor.com>
+  name: catalogue
+  namespace: sock-shop
